@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body{
+    background-color: #f6e2c7;
+    background-image: url('Cute-background.jpg');
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    font-family: "Comfortaa", sans-serif; 
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 55px;
+    background-color: #e6787f;
+    color:aliceblue;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.home{
+    padding:15px;
+}
+.about{
+    padding:15px;
+}
+.home:hover{
+    background: linear-gradient(to right, rgba(240, 239, 235, 0.467), rgb(235, 170, 169));
+}
+.about:hover{
+    background: linear-gradient(to right, rgba(240, 239, 235, 0.467), rgb(235, 170, 169));
+}
+.brand img{
+    padding: 0 5px;
+}
+.brand{
+    
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.searchCon {
+  background: #e6787f;
+  padding-bottom: 1pc;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  align-items: center;
+}
+input[type="search"] {
+  flex-direction: row;
+  margin: 20px 100px;
+  width: 60%;
+  padding: 0.8rem 1.2rem;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  background: #d7d1a4;
+  color: #000000;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+.songItem{
+    height:40px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50pt;  
+    font-family: "Archivo Black", sans-serif;
+    font-size: small;
+    background-image: linear-gradient(#fafbe6, #f39a82, #fafbe6);
+    width:95%;
+    margin: 12px 8px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.songItem:hover{
+    background-image: linear-gradient(#f39a82, #fafbe6, #f39a82);
+}
+.songItem img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.Songlistplay{ 
+    min-width:10ch;
+}
+.bottom {
+    position: sticky;
+    height:70px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10pt;
+    background-image: linear-gradient(to right, #fc57, rgb(230, 234, 180));
+    color:rgb(78, 0, 152);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid;
+}
+.spoticons{
+    margin-bottom: 0px;
+    cursor: pointer;
+
+}
+.spoticons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width:40vw;
+    cursor: pointer;
+}

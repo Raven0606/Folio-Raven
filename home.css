@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body{
+    background-color: #f6e2c7;
+    background-image: url('Cute-background.jpg');
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e6787f;
+    border-radius: 20px;
+    width:60%;
+    height:100%;
+    margin: 90pt;
+    font-family: "Comfortaa", sans-serif;
+    box-shadow: inset;
+    align-items: center;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.05);
+}

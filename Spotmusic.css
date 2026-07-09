@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body{
+    background-color: #f6e2c7;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    font-family: "Comfortaa", sans-serif; 
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 55px;
+    background-color: #e6787f;
+    color:aliceblue;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.home{
+    padding:15px;
+    cursor: pointer;
+}
+.about{
+    padding:15px;
+    cursor: pointer;
+}
+.home:hover{
+    background: linear-gradient(to right, rgba(240, 239, 235, 0.467), rgb(235, 170, 169));
+}
+.about:hover{
+    background: linear-gradient(to right, rgba(240, 239, 235, 0.467), rgb(235, 170, 169));
+}
+.brand img{
+    padding: 0 5px;
+}
+.brand{
+    
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+}
+.container{
+    min-height: 80vh;
+    font-size: 10px;
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+    background-image: url(music_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    border: 2px solid;
+    justify-content: space-between;
+}
+.bottom {
+    position: sticky;
+    height:70px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10pt;
+    background-image: linear-gradient(to right, rgba(255, 31, 105, 0.226), rgb(230, 234, 180));
+    color:rgb(53, 36, 43);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid;
+}
+.spoticons{
+    margin-bottom: 0px;
+    cursor: pointer;
+
+}
+.spoticons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width:40vw;
+    cursor: pointer;
+}
+.songItem{
+    height:70px;
+    display: flex;
+    border-radius: 50pt;  
+    font-family: "Archivo Black", sans-serif;
+    background-image: linear-gradient(#fafbe6, #f39a82, #fafbe6);
+    width:130%;
+    margin: 12px 8px;
+    justify-content:space-evenly ;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.songItem:hover {
+    background-image: linear-gradient(#f39a82, #fafbe6, #f39a82);
+    opacity: 1;
+}
+
+.songItem img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    opacity: 2;
+}
+    
+.timer {
+    margin: 0 15px;
+}
+.timer i{
+     cursor: pointer;
+}
+
+.songContainer{
+    margin-top: 50px;
+}
+.songInfo{
+    position: absolute;
+    left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.button1{
+    display: flex;
+    background-image: linear-gradient(#fafbe6, #f39a82, #fafbe6);
+    height: 20px;
+    width: 100px;
+    margin: 10px;
+    padding:10px;
+    border:none;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: large;
+    font-style: oblique;
+}
+.button1:hover{
+    background-image: linear-gradient(#f83b71, #fafbe6, #f83b71);
+}
