@@ -1,0 +1,6 @@
+1. Make a folder and keep the default name "New folder".
+2. Inside New folder, paste all the files.
+3. Create 2 more folders and name them: "covers" and "songs".
+4. Inside these 2 folders, paste your songs(mp3) and song covers(jpg) files.
+5. To add your favorite songs and the song covers in your website, simply change the items 
+   of const{....} from Spotmusic.js and Searchbar.js.
